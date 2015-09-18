@@ -1,0 +1,5 @@
+Configure apache config to take non .php urls
+Give permissions to img files to php user for dling images
+Change ovverride in apache config files
+Make sure php doesn't alert errors
+Change indexing to root

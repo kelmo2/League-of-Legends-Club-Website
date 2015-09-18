@@ -1,0 +1,544 @@
+y/*
+Title: CSS shortcut
+Author: Corey Muniz
+Description: css file for dem colors
+*/
+
+/*
+#FBAC33 - UTRGV Orange
+#008852 - UTRGV Green
+*/
+
+/* */
+
+
+/* Other CSS */
+html, body {
+
+
+}
+
+body{
+  padding-top: 0px;
+  height: 100%;
+}
+
+.container {
+  background-color: white !important;
+  overflow: show;
+
+}
+
+html {
+    position: relative;
+    min-height: 100% !important;
+}
+
+.mobile {
+	max-width: 320px;
+	max-height: 180px;
+}
+
+.fa-shield {
+  color: red;
+}
+
+.fa-sign-out {
+  color: white;
+}
+
+.fa-twitch {
+  color:#6441A5;
+}
+
+.fa-question {
+  color: #5BC0DE;
+}
+
+.fa-users {
+  color: #69B459;
+}
+.fa-user {
+  color: #73B3DF;
+}
+
+.fa-gamepad {
+  color: white;
+}
+
+.fa-check {
+  color: green;
+}
+.fa-times {
+  color: red;
+}
+
+.fa-facebook {
+  color: #3D5B99 !important;
+}
+.disabled {
+  filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");  
+
+}
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.error{
+  color: red;
+}
+
+.pics{
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 1px;
+  margin-left: 1px;
+  display:inline-block;
+}
+
+.mobilePics{
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 1px;
+  margin-left: 1px;
+  display:inline-block;
+}
+
+.members { 
+	height: 800px;
+	overflow: scroll;
+}
+
+/*For the  image on the navbar*/
+.navPic {
+  max-width: 55px;
+  max-height: 55px;
+  position: relative;
+  top: -10px;
+}
+
+.loading {
+   padding:1px;
+   border:3px solid #021a40;
+   background-color:red;
+}
+
+.paid {
+   padding:1px;
+   border:3px solid #021a40;
+   background-color:gold;
+}
+
+
+.banned {
+   padding:1px;
+   border:3px solid #021a40;
+   background-color:black;
+}
+
+.admin {
+   padding:1px;
+   border:3px solid #021a40;
+   background-color:#F00;
+}
+
+.bcdata {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+
+
+
+/* Navbar CSS */
+.navbar-inverse{
+  background-color: black;
+}
+.navbar {
+    background: black;
+    margin: 0;
+    border: 0;
+}
+
+.nlink{
+  color: #FBAC33 !important;
+}
+.nlink:hover{
+  color:#008852 !important;
+}
+
+.ilinkF{
+  color: black !important;
+}
+.ilinkF:hover{
+  color: #3D5B99 !important;
+}
+
+.ilinkT1{
+  color: black !important;
+}
+.ilinkT1:hover{
+  color: #659FCB !important;
+}
+
+.ilinkT2{
+  color: black !important;
+}
+.ilinkT2:hover{
+  color: #6441A5 !important;
+}
+
+
+/* Body CSS */
+
+.colorspace{
+  background-color: black
+  min-height: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+.colorspace2{
+  background-color: black;
+  min-height: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+
+.centerit{
+  text-align:center !important;
+}
+.pitch-headline {
+    font-size: 24px;
+    color: #FF6600 
+}
+
+.verdanize{
+  font-family: Verdana;
+}
+
+/* Sidebar */
+section {
+  flex: 1;
+  display: flex;
+  position: relative;
+  overflow: hidden; 
+  min-height: 800px;
+}
+aside {
+  width: 33.3333333%;
+  background-color: blue;
+  float: right;
+
+}
+article {
+  flex: 1;
+  width: 66.6666667%;
+  float: left;
+}
+
+.sidebarText{
+	position: relative;
+	left: 15px;
+	color: #00338D;
+	
+}
+
+/* Footer CSS */
+.footer-distributed{
+  /*The footer either won't stick to the bottom or overlaps content. Needs to be fixed*/
+  position: absolute;
+	background-color: black;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	box-sizing: border-box;
+	box-shadow: 0px 500px 0px 500px black;
+	margin-top: 5%;
+	padding: 20px 20px;
+}
+
+.footer-distributed .footer-left p{
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  white; /* Link color */
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+	background-color: black; /* Icon outer background color */
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #FBAC33; /* Icon inner background color */
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: white !important; /* Color of the icons */
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+.motto{
+	color: white !important;  /* Copyright color */
+	position: relative;
+	top: -10px;
+}
+
+/* Change icon color on hover */
+.footer-right a:hover{
+  color: #FF6600 !important;
+}
+
+/*Fixes the footer problem by adding a div with this white spacer above the footer*/
+#spacer { 
+	height: 80px;
+}
+
+/*
+CSS for the image slider template
+*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel-caption {
+  z-index: 1;
+}
+
+.carouse .item {
+ height: 400px; 
+ background-color:#555;
+}
+
+.carousel: img {
+  width: 100%;
+  max-height: 400px;y
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+
+.panel-primary > .panel-heading > h4 {
+  color: #FBAC33;
+}
+
+.panel-primary {
+  border-color: black;
+}
+
+.panel-primary > .panel-heading {
+  background-color: black;
+}
+
+
+.panel-primary > .panel-heading > h1 {
+  color: #FBAC33;
+}
+
+.panel-primary > .panel-heading > h3 {
+  color: #FBAC33;
+}
+
+
+
+/* chat */
+
+    .conversation-wrap
+    {
+        box-shadow: -2px 0 3px #ddd;
+        padding:0;
+        max-height: 400px;
+        overflow: auto;
+    }
+    .conversation
+    {
+        padding:5px;
+        border-bottom:1px solid #ddd;
+        margin:0;
+
+    }
+
+    .message-wrap
+    {
+        box-shadow: 0 0 3px #ddd;
+        padding:0;
+
+    }
+    .msg
+    {
+        padding:5px;
+        /*border-bottom:1px solid #ddd;*/
+        margin:0;
+    }
+    .msg-wrap
+    {
+        padding:10px;
+        max-height: 300px;
+        overflow: auto;
+
+    }
+
+    .time
+    {
+        color:#bfbfbf;
+    }
+
+    .send-wrap
+    {
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        padding:10px;
+        /*background: #f8f8f8;*/
+    }
+
+    .send-message
+    {
+        resize: none;
+    }
+
+    .highlight
+    {
+        background-color: #f7f7f9;
+        border: 1px solid #e1e1e8;
+    }
+
+    .send-message-btn
+    {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+
+        border-bottom-right-radius: 0;
+    }
+    .btn-panel
+    {
+        background: #f7f7f9;
+    }
+
+    .btn-panel .btn
+    {
+        color:#b8b8b8;
+
+        transition: 0.2s all ease-in-out;
+    }
+
+    .btn-panel .btn:hover
+    {
+        color:#666;
+        background: #f8f8f8;
+    }
+    .btn-panel .btn:active
+    {
+        background: #f8f8f8;
+        box-shadow: 0 0 1px #ddd;
+    }
+
+    .btn-panel-conversation .btn,.btn-panel-msg .btn
+    {
+
+        background: #f8f8f8;
+    }
+    .btn-panel-conversation .btn:first-child
+    {
+        border-right: 1px solid #ddd;
+    }
+
+    .msg-wrap .media-heading
+    {
+        color:#003bb3;
+        font-weight: 700;
+    }
+
+
+    .msg-date
+    {
+        background: none;
+        text-align: center;
+        color:#aaa;
+        border:none;
+        box-shadow: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+
+    body::-webkit-scrollbar {
+        width: 12px;
+    }
+ 
+    
+    /* Let's get this party started */
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+/*        -webkit-border-radius: 10px;
+        border-radius: 10px;*/
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+/*        -webkit-border-radius: 10px;
+        border-radius: 10px;*/
+        background:#ddd; 
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: #ddd; 
+    }
+
+
